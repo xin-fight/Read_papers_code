@@ -1,0 +1,167 @@
+2022-11-16 10:06:31,836 INFO    StreamThr :21604 [internal.py:wandb_internal():88] W&B internal server running at pid: 21604, started at: 2022-11-16 10:06:31.821256
+2022-11-16 10:06:31,836 DEBUG   HandlerThread:21604 [handler.py:handle_request():139] handle_request: status
+2022-11-16 10:06:31,836 DEBUG   SenderThread:21604 [sender.py:send_request():317] send_request: status
+2022-11-16 10:06:31,836 DEBUG   SenderThread:21604 [sender.py:send():303] send: header
+2022-11-16 10:06:31,836 DEBUG   SenderThread:21604 [sender.py:send():303] send: run
+2022-11-16 10:06:31,836 INFO    WriterThread:21604 [datastore.py:open_for_write():75] open: D:\ATLOP-main\wandb\run-20221116_100631-1ttlbkyg\run-1ttlbkyg.wandb
+2022-11-16 10:06:32,625 INFO    SenderThread:21604 [dir_watcher.py:__init__():216] watching files in: D:\ATLOP-main\wandb\run-20221116_100631-1ttlbkyg\files
+2022-11-16 10:06:32,625 INFO    SenderThread:21604 [sender.py:_start_run_threads():928] run started: 1ttlbkyg with start time 1668564391.821256
+2022-11-16 10:06:32,625 DEBUG   SenderThread:21604 [sender.py:send():303] send: summary
+2022-11-16 10:06:32,625 DEBUG   HandlerThread:21604 [handler.py:handle_request():139] handle_request: check_version
+2022-11-16 10:06:32,656 INFO    SenderThread:21604 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-16 10:06:32,656 DEBUG   SenderThread:21604 [sender.py:send_request():317] send_request: check_version
+2022-11-16 10:06:33,131 DEBUG   HandlerThread:21604 [handler.py:handle_request():139] handle_request: run_start
+2022-11-16 10:06:33,146 DEBUG   HandlerThread:21604 [system_info.py:__init__():31] System info init
+2022-11-16 10:06:33,146 DEBUG   HandlerThread:21604 [system_info.py:__init__():46] System info init done
+2022-11-16 10:06:33,146 INFO    HandlerThread:21604 [system_monitor.py:start():150] Starting system monitor
+2022-11-16 10:06:33,162 INFO    SystemMonitor:21604 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2022-11-16 10:06:33,162 INFO    HandlerThread:21604 [system_monitor.py:probe():168] Collecting system info
+2022-11-16 10:06:33,162 INFO    SystemMonitor:21604 [interfaces.py:start():168] Started cpu
+2022-11-16 10:06:33,162 INFO    SystemMonitor:21604 [interfaces.py:start():168] Started disk
+2022-11-16 10:06:33,162 INFO    SystemMonitor:21604 [interfaces.py:start():168] Started gpu
+2022-11-16 10:06:33,162 INFO    SystemMonitor:21604 [interfaces.py:start():168] Started memory
+2022-11-16 10:06:33,162 INFO    SystemMonitor:21604 [interfaces.py:start():168] Started network
+2022-11-16 10:06:33,182 DEBUG   HandlerThread:21604 [system_info.py:probe():195] Probing system
+2022-11-16 10:06:33,182 DEBUG   HandlerThread:21604 [git.py:repo():40] git repository is invalid
+2022-11-16 10:06:33,182 DEBUG   HandlerThread:21604 [system_info.py:probe():241] Probing system done
+2022-11-16 10:06:33,182 DEBUG   HandlerThread:21604 [system_monitor.py:probe():177] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.9.12', 'heartbeatAt': '2022-11-16T02:06:33.182397', 'startedAt': '2022-11-16T02:06:31.629198', 'docker': None, 'cuda': None, 'args': ('--data_dir', './dataset/docred', '--transformer_type', 'bert', '--model_name_or_path', 'bert-base-cased', '--train_file', 'train_annotated.json', '--dev_file', 'dev.json', '--test_file', 'test.json', '--train_batch_size', '2', '--test_batch_size', '8', '--gradient_accumulation_steps', '1', '--num_labels', '4', '--learning_rate', '5e-5', '--max_grad_norm', '1.0', '--warmup_ratio', '0.06', '--num_train_epochs', '30.0', '--seed', '66', '--num_class', '97'), 'state': 'running', 'program': 'D:\\ATLOP-main\\train.py', 'codePath': 'train.py', 'host': 'xinl', 'username': '69014', 'executable': 'C:\\Users\\pc\\anaconda3\\python.exe', 'cpu_count': 12, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2500.0, 'min': 0.0, 'max': 2500.0}, 'cpu_freq_per_core': [{'current': 2500.0, 'min': 0.0, 'max': 2500.0}], 'disk': {'total': 57.65643310546875, 'used': 38.31085205078125}, 'gpu': 'NVIDIA GeForce RTX 3060 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3060 Laptop GPU', 'memory_total': 6442450944}], 'memory': {'total': 15.675884246826172}}
+2022-11-16 10:06:33,182 INFO    HandlerThread:21604 [system_monitor.py:probe():178] Finished collecting system info
+2022-11-16 10:06:33,182 INFO    HandlerThread:21604 [system_monitor.py:probe():181] Publishing system info
+2022-11-16 10:06:33,182 DEBUG   HandlerThread:21604 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2022-11-16 10:06:33,214 DEBUG   HandlerThread:21604 [system_info.py:_save_pip():67] Saving pip packages done
+2022-11-16 10:06:33,214 DEBUG   HandlerThread:21604 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2022-11-16 10:06:33,639 INFO    Thread-17 :21604 [dir_watcher.py:_on_file_created():275] file/dir created: D:\ATLOP-main\wandb\run-20221116_100631-1ttlbkyg\files\conda-environment.yaml
+2022-11-16 10:06:33,639 INFO    Thread-17 :21604 [dir_watcher.py:_on_file_created():275] file/dir created: D:\ATLOP-main\wandb\run-20221116_100631-1ttlbkyg\files\wandb-summary.json
+2022-11-16 10:06:33,639 INFO    Thread-17 :21604 [dir_watcher.py:_on_file_created():275] file/dir created: D:\ATLOP-main\wandb\run-20221116_100631-1ttlbkyg\files\requirements.txt
+2022-11-16 10:06:42,197 DEBUG   HandlerThread:21604 [system_info.py:_save_conda():86] Saving conda packages done
+2022-11-16 10:06:42,228 INFO    HandlerThread:21604 [system_monitor.py:probe():183] Finished publishing system info
+2022-11-16 10:06:42,384 DEBUG   HandlerThread:21604 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-16 10:06:42,384 DEBUG   SenderThread:21604 [sender.py:send_request():317] send_request: stop_status
+2022-11-16 10:06:42,688 INFO    Thread-17 :21604 [dir_watcher.py:_on_file_modified():292] file/dir modified: D:\ATLOP-main\wandb\run-20221116_100631-1ttlbkyg\files\conda-environment.yaml
+2022-11-16 10:06:42,688 INFO    Thread-17 :21604 [dir_watcher.py:_on_file_created():275] file/dir created: D:\ATLOP-main\wandb\run-20221116_100631-1ttlbkyg\files\wandb-metadata.json
+2022-11-16 10:06:42,735 DEBUG   SenderThread:21604 [sender.py:send():303] send: telemetry
+2022-11-16 10:06:42,735 DEBUG   SenderThread:21604 [sender.py:send():303] send: files
+2022-11-16 10:06:42,735 INFO    SenderThread:21604 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-11-16 10:06:43,658 INFO    Thread-20 :21604 [upload_job.py:push():143] Uploaded file C:\Users\69014\AppData\Local\Temp\tmp4g73g2gjwandb\2brgqq5q-wandb-metadata.json
+2022-11-16 10:06:49,750 INFO    Thread-17 :21604 [dir_watcher.py:_on_file_created():275] file/dir created: D:\ATLOP-main\wandb\run-20221116_100631-1ttlbkyg\files\output.log
+2022-11-16 10:06:57,750 DEBUG   HandlerThread:21604 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-16 10:06:57,750 DEBUG   SenderThread:21604 [sender.py:send_request():317] send_request: stop_status
+2022-11-16 10:07:02,955 INFO    Thread-17 :21604 [dir_watcher.py:_on_file_modified():292] file/dir modified: D:\ATLOP-main\wandb\run-20221116_100631-1ttlbkyg\files\config.yaml
+2022-11-16 10:07:07,796 WARNING FileStreamThread:21604 [file_stream.py:request_with_retry():667] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/xin-l/DocRED/1ttlbkyg/file_stream (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)'))). func: <bound method Session.post of <requests.sessions.Session object at 0x000001AADD874460>>, args: ('https://api.wandb.ai/files/xin-l/DocRED/1ttlbkyg/file_stream',), kwargs: {'json': {'files': {'output.log': {'offset': 0, 'content': ['ERROR 2022-11-16T02:07:07.781256 Example:  50%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨‚                                                                  | 1535/3053 [00:17<00:18, 81.46it/s]\n']}}, 'dropped': 0}}
+2022-11-16 10:07:10,022 WARNING FileStreamThread:21604 [file_stream.py:request_with_retry():667] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/xin-l/DocRED/1ttlbkyg/file_stream (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)'))). func: <bound method Session.post of <requests.sessions.Session object at 0x000001AADD874460>>, args: ('https://api.wandb.ai/files/xin-l/DocRED/1ttlbkyg/file_stream',), kwargs: {'json': {'files': {'output.log': {'offset': 0, 'content': ['ERROR 2022-11-16T02:07:07.781256 Example:  50%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨‚                                                                  | 1535/3053 [00:17<00:18, 81.46it/s]\n']}}, 'dropped': 0}}
+2022-11-16 10:07:13,120 DEBUG   HandlerThread:21604 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-16 10:07:13,120 DEBUG   SenderThread:21604 [sender.py:send_request():317] send_request: stop_status
+2022-11-16 10:07:14,477 WARNING FileStreamThread:21604 [file_stream.py:request_with_retry():667] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/xin-l/DocRED/1ttlbkyg/file_stream (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)'))). func: <bound method Session.post of <requests.sessions.Session object at 0x000001AADD874460>>, args: ('https://api.wandb.ai/files/xin-l/DocRED/1ttlbkyg/file_stream',), kwargs: {'json': {'files': {'output.log': {'offset': 0, 'content': ['ERROR 2022-11-16T02:07:07.781256 Example:  50%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨‚                                                                  | 1535/3053 [00:17<00:18, 81.46it/s]\n']}}, 'dropped': 0}}
+2022-11-16 10:07:16,655 ERROR   SenderThread:21604 [retry.py:__call__():154] Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\Users\pc\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\pc\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 996, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\pc\anaconda3\lib\site-packages\urllib3\connection.py", line 364, in connect
+    self.sock = conn = self._connect_tls_proxy(hostname, conn)
+  File "C:\Users\pc\anaconda3\lib\site-packages\urllib3\connection.py", line 499, in _connect_tls_proxy
+    socket = ssl_wrap_socket(
+  File "C:\Users\pc\anaconda3\lib\site-packages\urllib3\util\ssl_.py", line 453, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls)
+  File "C:\Users\pc\anaconda3\lib\site-packages\urllib3\util\ssl_.py", line 495, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock)
+  File "C:\Users\pc\anaconda3\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\pc\anaconda3\lib\ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "C:\Users\pc\anaconda3\lib\ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1129)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pc\anaconda3\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\pc\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\pc\anaconda3\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pc\anaconda3\lib\site-packages\wandb\sdk\lib\retry.py", line 113, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\Users\pc\anaconda3\lib\site-packages\wandb\sdk\internal\internal_api.py", line 210, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "C:\Users\pc\anaconda3\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "C:\Users\pc\anaconda3\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "C:\Users\pc\anaconda3\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\transport\requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "C:\Users\pc\anaconda3\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "C:\Users\pc\anaconda3\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\pc\anaconda3\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\pc\anaconda3\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\pc\anaconda3\lib\site-packages\requests\adapters.py", line 563, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+2022-11-16 10:07:24,465 WARNING FileStreamThread:21604 [file_stream.py:request_with_retry():667] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/xin-l/DocRED/1ttlbkyg/file_stream (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)'))). func: <bound method Session.post of <requests.sessions.Session object at 0x000001AADD874460>>, args: ('https://api.wandb.ai/files/xin-l/DocRED/1ttlbkyg/file_stream',), kwargs: {'json': {'files': {'output.log': {'offset': 0, 'content': ['ERROR 2022-11-16T02:07:07.781256 Example:  50%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨‚                                                                  | 1535/3053 [00:17<00:18, 81.46it/s]\n']}}, 'dropped': 0}}
+2022-11-16 10:07:33,123 DEBUG   HandlerThread:21604 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-16 10:07:33,170 DEBUG   SystemMonitor:21604 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2022-11-16 10:07:35,493 DEBUG   HandlerThread:21604 [handler.py:handle_request():139] handle_request: poll_exit
+2022-11-16 10:07:40,531 DEBUG   HandlerThread:21604 [handler.py:handle_request():139] handle_request: keepalive
+2022-11-16 10:07:43,446 WARNING FileStreamThread:21604 [file_stream.py:request_with_retry():667] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/xin-l/DocRED/1ttlbkyg/file_stream (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)'))). func: <bound method Session.post of <requests.sessions.Session object at 0x000001AADD874460>>, args: ('https://api.wandb.ai/files/xin-l/DocRED/1ttlbkyg/file_stream',), kwargs: {'json': {'files': {'output.log': {'offset': 0, 'content': ['ERROR 2022-11-16T02:07:07.781256 Example:  50%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨‚                                                                  | 1535/3053 [00:17<00:18, 81.46it/s]\n']}}, 'dropped': 0}}
+2022-11-16 10:07:45,556 DEBUG   HandlerThread:21604 [handler.py:handle_request():139] handle_request: keepalive
+2022-11-16 10:07:50,588 DEBUG   HandlerThread:21604 [handler.py:handle_request():139] handle_request: keepalive
+2022-11-16 10:07:55,632 DEBUG   HandlerThread:21604 [handler.py:handle_request():139] handle_request: keepalive
+2022-11-16 10:08:00,669 DEBUG   HandlerThread:21604 [handler.py:handle_request():139] handle_request: keepalive
+2022-11-16 10:08:05,722 DEBUG   HandlerThread:21604 [handler.py:handle_request():139] handle_request: keepalive
+2022-11-16 10:08:10,754 DEBUG   HandlerThread:21604 [handler.py:handle_request():139] handle_request: keepalive
+2022-11-16 10:08:15,795 DEBUG   HandlerThread:21604 [handler.py:handle_request():139] handle_request: keepalive
+2022-11-16 10:08:19,402 WARNING FileStreamThread:21604 [file_stream.py:request_with_retry():667] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/xin-l/DocRED/1ttlbkyg/file_stream (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)'))). func: <bound method Session.post of <requests.sessions.Session object at 0x000001AADD874460>>, args: ('https://api.wandb.ai/files/xin-l/DocRED/1ttlbkyg/file_stream',), kwargs: {'json': {'files': {'output.log': {'offset': 0, 'content': ['ERROR 2022-11-16T02:07:07.781256 Example:  50%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨‚                                                                  | 1535/3053 [00:17<00:18, 81.46it/s]\n']}}, 'dropped': 0}}
+2022-11-16 10:08:20,817 DEBUG   HandlerThread:21604 [handler.py:handle_request():139] handle_request: keepalive
+2022-11-16 10:08:25,851 DEBUG   HandlerThread:21604 [handler.py:handle_request():139] handle_request: keepalive
+2022-11-16 10:08:30,893 DEBUG   HandlerThread:21604 [handler.py:handle_request():139] handle_request: keepalive
+2022-11-16 10:08:35,920 DEBUG   HandlerThread:21604 [handler.py:handle_request():139] handle_request: keepalive
+2022-11-16 10:08:40,967 DEBUG   HandlerThread:21604 [handler.py:handle_request():139] handle_request: keepalive
+2022-11-16 10:08:46,017 DEBUG   HandlerThread:21604 [handler.py:handle_request():139] handle_request: keepalive
+2022-11-16 10:08:51,073 DEBUG   HandlerThread:21604 [handler.py:handle_request():139] handle_request: keepalive
+2022-11-16 10:08:56,126 DEBUG   HandlerThread:21604 [handler.py:handle_request():139] handle_request: keepalive
+2022-11-16 10:09:01,175 DEBUG   HandlerThread:21604 [handler.py:handle_request():139] handle_request: keepalive
+2022-11-16 10:09:06,227 DEBUG   HandlerThread:21604 [handler.py:handle_request():139] handle_request: keepalive
+2022-11-16 10:09:11,269 DEBUG   HandlerThread:21604 [handler.py:handle_request():139] handle_request: keepalive
+2022-11-16 10:09:16,310 DEBUG   HandlerThread:21604 [handler.py:handle_request():139] handle_request: keepalive
+2022-11-16 10:09:21,363 DEBUG   HandlerThread:21604 [handler.py:handle_request():139] handle_request: keepalive
+2022-11-16 10:09:26,429 DEBUG   HandlerThread:21604 [handler.py:handle_request():139] handle_request: keepalive
+2022-11-16 10:09:31,474 DEBUG   HandlerThread:21604 [handler.py:handle_request():139] handle_request: keepalive
+2022-11-16 10:09:36,515 DEBUG   HandlerThread:21604 [handler.py:handle_request():139] handle_request: keepalive
+2022-11-16 10:09:36,864 WARNING FileStreamThread:21604 [file_stream.py:request_with_retry():667] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/xin-l/DocRED/1ttlbkyg/file_stream (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)'))). func: <bound method Session.post of <requests.sessions.Session object at 0x000001AADD874460>>, args: ('https://api.wandb.ai/files/xin-l/DocRED/1ttlbkyg/file_stream',), kwargs: {'json': {'files': {'output.log': {'offset': 0, 'content': ['ERROR 2022-11-16T02:07:07.781256 Example:  50%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨‚                                                                  | 1535/3053 [00:17<00:18, 81.46it/s]\n']}}, 'dropped': 0}}
+2022-11-16 10:09:41,562 DEBUG   HandlerThread:21604 [handler.py:handle_request():139] handle_request: keepalive
+2022-11-16 10:09:46,601 DEBUG   HandlerThread:21604 [handler.py:handle_request():139] handle_request: keepalive
+2022-11-16 10:09:51,637 DEBUG   HandlerThread:21604 [handler.py:handle_request():139] handle_request: keepalive
+2022-11-16 10:09:54,536 WARNING StreamThr :21604 [internal.py:is_dead():385] Internal process exiting, parent pid 15924 disappeared
+2022-11-16 10:09:54,536 ERROR   StreamThr :21604 [internal.py:wandb_internal():147] Internal process shutdown.
+2022-11-16 10:09:54,660 INFO    HandlerThread:21604 [handler.py:finish():814] shutting down handler
+2022-11-16 10:09:55,406 INFO    WriterThread:21604 [datastore.py:close():279] close: D:\ATLOP-main\wandb\run-20221116_100631-1ttlbkyg\run-1ttlbkyg.wandb
+2022-11-16 10:12:15,255 WARNING FileStreamThread:21604 [file_stream.py:request_with_retry():667] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/xin-l/DocRED/1ttlbkyg/file_stream (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)'))). func: <bound method Session.post of <requests.sessions.Session object at 0x000001AADD874460>>, args: ('https://api.wandb.ai/files/xin-l/DocRED/1ttlbkyg/file_stream',), kwargs: {'json': {'files': {'output.log': {'offset': 0, 'content': ['ERROR 2022-11-16T02:07:07.781256 Example:  50%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨‚                                                                  | 1535/3053 [00:17<00:18, 81.46it/s]\n']}}, 'dropped': 0}}
+2022-11-16 10:16:40,578 INFO    SenderThread:21604 [sender.py:finish():1331] shutting down sender
+2022-11-16 10:16:42,205 INFO    SenderThread:21604 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-11-16 10:16:42,737 INFO    SenderThread:21604 [dir_watcher.py:_on_file_modified():292] file/dir modified: D:\ATLOP-main\wandb\run-20221116_100631-1ttlbkyg\files\output.log
+2022-11-16 10:16:42,737 INFO    SenderThread:21604 [dir_watcher.py:finish():392] scan: D:\ATLOP-main\wandb\run-20221116_100631-1ttlbkyg\files
+2022-11-16 10:16:42,737 INFO    SenderThread:21604 [dir_watcher.py:finish():406] scan save: D:\ATLOP-main\wandb\run-20221116_100631-1ttlbkyg\files\config.yaml config.yaml
+2022-11-16 10:16:42,737 INFO    SenderThread:21604 [dir_watcher.py:finish():406] scan save: D:\ATLOP-main\wandb\run-20221116_100631-1ttlbkyg\files\wandb-summary.json wandb-summary.json
+2022-11-16 10:16:42,737 INFO    SenderThread:21604 [dir_watcher.py:finish():406] scan save: D:\ATLOP-main\wandb\run-20221116_100631-1ttlbkyg\files\requirements.txt requirements.txt
+2022-11-16 10:16:42,737 INFO    SenderThread:21604 [dir_watcher.py:finish():406] scan save: D:\ATLOP-main\wandb\run-20221116_100631-1ttlbkyg\files\conda-environment.yaml conda-environment.yaml
+2022-11-16 10:16:42,737 INFO    SenderThread:21604 [dir_watcher.py:finish():406] scan save: D:\ATLOP-main\wandb\run-20221116_100631-1ttlbkyg\files\wandb-metadata.json wandb-metadata.json
+2022-11-16 10:16:42,737 INFO    SenderThread:21604 [dir_watcher.py:finish():406] scan save: D:\ATLOP-main\wandb\run-20221116_100631-1ttlbkyg\files\output.log output.log
+2022-11-16 10:16:42,737 INFO    SenderThread:21604 [file_pusher.py:finish():168] shutting down file pusher
+2022-11-16 10:16:42,737 INFO    SenderThread:21604 [file_pusher.py:join():173] waiting for file pusher
+2022-11-16 10:16:43,644 INFO    Thread-23 :21604 [upload_job.py:push():143] Uploaded file D:\ATLOP-main\wandb\run-20221116_100631-1ttlbkyg\files\requirements.txt
+2022-11-16 10:16:43,644 INFO    Thread-22 :21604 [upload_job.py:push():143] Uploaded file D:\ATLOP-main\wandb\run-20221116_100631-1ttlbkyg\files\wandb-summary.json
+2022-11-16 10:16:43,644 INFO    Thread-21 :21604 [upload_job.py:push():143] Uploaded file D:\ATLOP-main\wandb\run-20221116_100631-1ttlbkyg\files\config.yaml
+2022-11-16 10:16:43,676 INFO    Thread-25 :21604 [upload_job.py:push():143] Uploaded file D:\ATLOP-main\wandb\run-20221116_100631-1ttlbkyg\files\output.log
+2022-11-16 10:16:43,722 INFO    Thread-24 :21604 [upload_job.py:push():143] Uploaded file D:\ATLOP-main\wandb\run-20221116_100631-1ttlbkyg\files\conda-environment.yaml

@@ -1,0 +1,8 @@
+
+d482ecb6dbf7faa52f6a4034c781b30756c7f7d5
+
+wandb: ⭐️ View project at https://wandb.ai/xin-l/DocRED
+wandb: 🚀 View run at https://wandb.ai/xin-l/DocRED/runs/2szft8h8
+
+wandb使用教程(四)：wandb本地部署:https://zhuanlan.zhihu.com/p/521663928
+wandb使用教程(一)：基础用法:https://zhuanlan.zhihu.com/p/493093033

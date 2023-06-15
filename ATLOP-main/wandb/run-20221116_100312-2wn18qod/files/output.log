@@ -1,0 +1,66 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Example: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3053/3053 [00:34<00:00, 87.54it/s]
+Example:   2%|██▊                                                                                                                                     | 21/998 [00:00<00:10, 96.90it/s]
+# of documents 3053.
+# of positive examples 35615.
+
+
+
+
+
+
+Example: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 998/998 [00:13<00:00, 71.82it/s]
+Example:   0%|                                                                                                                                                | 0/1000 [00:00<?, ?it/s]
+# of documents 998.
+# of positive examples 11470.
+
+
+
+
+Example:  95%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌      | 952/1000 [00:08<00:00, 48.40it/s]
+# of documents 1000.
+# of positive examples 0.
+
+Example: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1000/1000 [00:08<00:00, 116.79it/s]
+Total steps: 45780
+Warmup steps: 2746
+Some weights of the model checkpoint at bert-base-cased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.weight', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.weight', 'cls.predictions.bias', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+C:\Users\pc\anaconda3\lib\site-packages\transformers\optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+C:\Users\pc\anaconda3\lib\site-packages\apex-0.1-py3.9.egg\apex\__init__.py:68: DeprecatedFeatureWarning: apex.amp is deprecated and will be removed by the end of February 2023. Use [PyTorch AMP](https://pytorch.org/docs/stable/amp.html)
+Traceback (most recent call last):
+  File "D:\ATLOP-main\train.py", line 254, in <module>
+    main()
+  File "D:\ATLOP-main\train.py", line 242, in main
+    train(args, model, train_features, dev_features, test_features)
+  File "D:\ATLOP-main\train.py", line 88, in train
+    finetune(train_features, optimizer, args.num_train_epochs, num_steps)
+  File "D:\ATLOP-main\train.py", line 51, in finetune
+    outputs = model(**inputs)
+  File "C:\Users\pc\anaconda3\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "D:\ATLOP-main\model.py", line 96, in forward
+    sequence_output, attention = self.encode(input_ids, attention_mask)
+  File "D:\ATLOP-main\model.py", line 32, in encode
+    sequence_output, attention = process_long_input(self.model, input_ids, attention_mask, start_tokens, end_tokens)
+  File "D:\ATLOP-main\long_seq.py", line 26, in process_long_input
+    print(output[-1].shape)
+AttributeError: 'tuple' object has no attribute 'shape'

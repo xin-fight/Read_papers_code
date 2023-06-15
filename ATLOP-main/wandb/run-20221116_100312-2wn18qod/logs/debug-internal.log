@@ -1,0 +1,175 @@
+2022-11-16 10:03:12,577 INFO    StreamThr :22804 [internal.py:wandb_internal():88] W&B internal server running at pid: 22804, started at: 2022-11-16 10:03:12.561813
+2022-11-16 10:03:12,577 DEBUG   HandlerThread:22804 [handler.py:handle_request():139] handle_request: status
+2022-11-16 10:03:12,577 DEBUG   SenderThread:22804 [sender.py:send_request():317] send_request: status
+2022-11-16 10:03:12,577 INFO    WriterThread:22804 [datastore.py:open_for_write():75] open: D:\ATLOP-main\wandb\run-20221116_100312-2wn18qod\run-2wn18qod.wandb
+2022-11-16 10:03:12,577 DEBUG   SenderThread:22804 [sender.py:send():303] send: header
+2022-11-16 10:03:12,577 DEBUG   SenderThread:22804 [sender.py:send():303] send: run
+2022-11-16 10:03:13,390 DEBUG   HandlerThread:22804 [handler.py:handle_request():139] handle_request: check_version
+2022-11-16 10:03:13,405 INFO    SenderThread:22804 [dir_watcher.py:__init__():216] watching files in: D:\ATLOP-main\wandb\run-20221116_100312-2wn18qod\files
+2022-11-16 10:03:13,405 INFO    SenderThread:22804 [sender.py:_start_run_threads():928] run started: 2wn18qod with start time 1668564192.561813
+2022-11-16 10:03:13,405 DEBUG   SenderThread:22804 [sender.py:send():303] send: summary
+2022-11-16 10:03:13,437 INFO    SenderThread:22804 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-16 10:03:13,437 DEBUG   SenderThread:22804 [sender.py:send_request():317] send_request: check_version
+2022-11-16 10:03:13,906 DEBUG   HandlerThread:22804 [handler.py:handle_request():139] handle_request: run_start
+2022-11-16 10:03:14,015 DEBUG   HandlerThread:22804 [system_info.py:__init__():31] System info init
+2022-11-16 10:03:14,015 DEBUG   HandlerThread:22804 [system_info.py:__init__():46] System info init done
+2022-11-16 10:03:14,015 INFO    HandlerThread:22804 [system_monitor.py:start():150] Starting system monitor
+2022-11-16 10:03:14,015 INFO    SystemMonitor:22804 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2022-11-16 10:03:14,015 INFO    HandlerThread:22804 [system_monitor.py:probe():168] Collecting system info
+2022-11-16 10:03:14,015 INFO    SystemMonitor:22804 [interfaces.py:start():168] Started cpu
+2022-11-16 10:03:14,015 INFO    SystemMonitor:22804 [interfaces.py:start():168] Started disk
+2022-11-16 10:03:14,015 INFO    SystemMonitor:22804 [interfaces.py:start():168] Started gpu
+2022-11-16 10:03:14,015 INFO    SystemMonitor:22804 [interfaces.py:start():168] Started memory
+2022-11-16 10:03:14,047 INFO    SystemMonitor:22804 [interfaces.py:start():168] Started network
+2022-11-16 10:03:14,062 DEBUG   HandlerThread:22804 [system_info.py:probe():195] Probing system
+2022-11-16 10:03:14,062 DEBUG   HandlerThread:22804 [git.py:repo():40] git repository is invalid
+2022-11-16 10:03:14,062 DEBUG   HandlerThread:22804 [system_info.py:probe():241] Probing system done
+2022-11-16 10:03:14,062 DEBUG   HandlerThread:22804 [system_monitor.py:probe():177] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.9.12', 'heartbeatAt': '2022-11-16T02:03:14.062725', 'startedAt': '2022-11-16T02:03:12.374332', 'docker': None, 'cuda': None, 'args': ('--data_dir', './dataset/docred', '--transformer_type', 'bert', '--model_name_or_path', 'bert-base-cased', '--train_file', 'train_annotated.json', '--dev_file', 'dev.json', '--test_file', 'test.json', '--train_batch_size', '2', '--test_batch_size', '8', '--gradient_accumulation_steps', '1', '--num_labels', '4', '--learning_rate', '5e-5', '--max_grad_norm', '1.0', '--warmup_ratio', '0.06', '--num_train_epochs', '30.0', '--seed', '66', '--num_class', '97'), 'state': 'running', 'program': 'D:\\ATLOP-main\\train.py', 'codePath': 'train.py', 'host': 'xinl', 'username': '69014', 'executable': 'C:\\Users\\pc\\anaconda3\\python.exe', 'cpu_count': 12, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2500.0, 'min': 0.0, 'max': 2500.0}, 'cpu_freq_per_core': [{'current': 2500.0, 'min': 0.0, 'max': 2500.0}], 'disk': {'total': 57.65643310546875, 'used': 38.31024169921875}, 'gpu': 'NVIDIA GeForce RTX 3060 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3060 Laptop GPU', 'memory_total': 6442450944}], 'memory': {'total': 15.675884246826172}}
+2022-11-16 10:03:14,062 INFO    HandlerThread:22804 [system_monitor.py:probe():178] Finished collecting system info
+2022-11-16 10:03:14,062 INFO    HandlerThread:22804 [system_monitor.py:probe():181] Publishing system info
+2022-11-16 10:03:14,062 DEBUG   HandlerThread:22804 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2022-11-16 10:03:14,093 DEBUG   HandlerThread:22804 [system_info.py:_save_pip():67] Saving pip packages done
+2022-11-16 10:03:14,093 DEBUG   HandlerThread:22804 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2022-11-16 10:03:14,422 INFO    Thread-17 :22804 [dir_watcher.py:_on_file_created():275] file/dir created: D:\ATLOP-main\wandb\run-20221116_100312-2wn18qod\files\conda-environment.yaml
+2022-11-16 10:03:14,422 INFO    Thread-17 :22804 [dir_watcher.py:_on_file_created():275] file/dir created: D:\ATLOP-main\wandb\run-20221116_100312-2wn18qod\files\wandb-summary.json
+2022-11-16 10:03:14,422 INFO    Thread-17 :22804 [dir_watcher.py:_on_file_created():275] file/dir created: D:\ATLOP-main\wandb\run-20221116_100312-2wn18qod\files\requirements.txt
+2022-11-16 10:03:28,548 DEBUG   HandlerThread:22804 [system_info.py:_save_conda():86] Saving conda packages done
+2022-11-16 10:03:28,579 INFO    HandlerThread:22804 [system_monitor.py:probe():183] Finished publishing system info
+2022-11-16 10:03:28,736 DEBUG   HandlerThread:22804 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-16 10:03:28,736 DEBUG   SenderThread:22804 [sender.py:send_request():317] send_request: stop_status
+2022-11-16 10:03:29,101 DEBUG   SenderThread:22804 [sender.py:send():303] send: telemetry
+2022-11-16 10:03:29,101 DEBUG   SenderThread:22804 [sender.py:send():303] send: files
+2022-11-16 10:03:29,101 INFO    SenderThread:22804 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-11-16 10:03:29,352 INFO    Thread-17 :22804 [dir_watcher.py:_on_file_modified():292] file/dir modified: D:\ATLOP-main\wandb\run-20221116_100312-2wn18qod\files\conda-environment.yaml
+2022-11-16 10:03:29,352 INFO    Thread-17 :22804 [dir_watcher.py:_on_file_created():275] file/dir created: D:\ATLOP-main\wandb\run-20221116_100312-2wn18qod\files\wandb-metadata.json
+2022-11-16 10:03:30,040 INFO    Thread-20 :22804 [upload_job.py:push():143] Uploaded file C:\Users\69014\AppData\Local\Temp\tmpffjfgtgewandb\3ikfg3hg-wandb-metadata.json
+2022-11-16 10:03:31,375 INFO    Thread-17 :22804 [dir_watcher.py:_on_file_created():275] file/dir created: D:\ATLOP-main\wandb\run-20221116_100312-2wn18qod\files\output.log
+2022-11-16 10:03:38,931 DEBUG   HandlerThread:22804 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-16 10:03:38,931 DEBUG   SenderThread:22804 [sender.py:send_request():317] send_request: stop_status
+2022-11-16 10:03:43,552 INFO    Thread-17 :22804 [dir_watcher.py:_on_file_modified():292] file/dir modified: D:\ATLOP-main\wandb\run-20221116_100312-2wn18qod\files\config.yaml
+2022-11-16 10:03:54,300 DEBUG   HandlerThread:22804 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-16 10:03:54,300 DEBUG   SenderThread:22804 [sender.py:send_request():317] send_request: stop_status
+2022-11-16 10:04:09,679 DEBUG   HandlerThread:22804 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-16 10:04:09,679 DEBUG   SenderThread:22804 [sender.py:send_request():317] send_request: stop_status
+2022-11-16 10:04:14,054 DEBUG   SystemMonitor:22804 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2022-11-16 10:04:14,057 DEBUG   SenderThread:22804 [sender.py:send():303] send: stats
+2022-11-16 10:04:25,088 DEBUG   HandlerThread:22804 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-16 10:04:25,088 DEBUG   SenderThread:22804 [sender.py:send_request():317] send_request: stop_status
+2022-11-16 10:04:35,174 DEBUG   SenderThread:22804 [sender.py:send():303] send: exit
+2022-11-16 10:04:35,174 INFO    SenderThread:22804 [sender.py:send_exit():442] handling exit code: 1
+2022-11-16 10:04:35,174 INFO    SenderThread:22804 [sender.py:send_exit():444] handling runtime: 81
+2022-11-16 10:04:35,235 INFO    SenderThread:22804 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-16 10:04:35,235 INFO    SenderThread:22804 [sender.py:send_exit():450] send defer
+2022-11-16 10:04:35,235 DEBUG   HandlerThread:22804 [handler.py:handle_request():139] handle_request: defer
+2022-11-16 10:04:35,235 INFO    HandlerThread:22804 [handler.py:handle_request_defer():162] handle defer: 0
+2022-11-16 10:04:35,235 DEBUG   SenderThread:22804 [sender.py:send_request():317] send_request: defer
+2022-11-16 10:04:35,235 INFO    SenderThread:22804 [sender.py:send_request_defer():459] handle sender defer: 0
+2022-11-16 10:04:35,235 INFO    SenderThread:22804 [sender.py:transition_state():463] send defer: 1
+2022-11-16 10:04:35,235 DEBUG   HandlerThread:22804 [handler.py:handle_request():139] handle_request: defer
+2022-11-16 10:04:35,235 INFO    HandlerThread:22804 [handler.py:handle_request_defer():162] handle defer: 1
+2022-11-16 10:04:35,235 INFO    HandlerThread:22804 [system_monitor.py:finish():160] Stopping system monitor
+2022-11-16 10:04:35,235 DEBUG   SystemMonitor:22804 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2022-11-16 10:04:35,235 DEBUG   SystemMonitor:22804 [system_monitor.py:_start():141] Publishing last batch of metrics
+2022-11-16 10:04:35,282 INFO    HandlerThread:22804 [interfaces.py:finish():173] Joined cpu
+2022-11-16 10:04:35,282 INFO    HandlerThread:22804 [interfaces.py:finish():173] Joined disk
+2022-11-16 10:04:35,298 INFO    HandlerThread:22804 [interfaces.py:finish():173] Joined gpu
+2022-11-16 10:04:35,298 INFO    HandlerThread:22804 [interfaces.py:finish():173] Joined memory
+2022-11-16 10:04:35,298 INFO    HandlerThread:22804 [interfaces.py:finish():173] Joined network
+2022-11-16 10:04:35,298 DEBUG   SenderThread:22804 [sender.py:send_request():317] send_request: defer
+2022-11-16 10:04:35,298 INFO    SenderThread:22804 [sender.py:send_request_defer():459] handle sender defer: 1
+2022-11-16 10:04:35,298 INFO    SenderThread:22804 [sender.py:transition_state():463] send defer: 2
+2022-11-16 10:04:35,298 DEBUG   SenderThread:22804 [sender.py:send():303] send: stats
+2022-11-16 10:04:35,298 DEBUG   HandlerThread:22804 [handler.py:handle_request():139] handle_request: defer
+2022-11-16 10:04:35,298 INFO    HandlerThread:22804 [handler.py:handle_request_defer():162] handle defer: 2
+2022-11-16 10:04:35,298 INFO    Thread-17 :22804 [dir_watcher.py:_on_file_modified():292] file/dir modified: D:\ATLOP-main\wandb\run-20221116_100312-2wn18qod\files\wandb-summary.json
+2022-11-16 10:04:35,298 DEBUG   SenderThread:22804 [sender.py:send_request():317] send_request: defer
+2022-11-16 10:04:35,298 INFO    SenderThread:22804 [sender.py:send_request_defer():459] handle sender defer: 2
+2022-11-16 10:04:35,298 INFO    SenderThread:22804 [sender.py:transition_state():463] send defer: 3
+2022-11-16 10:04:35,298 DEBUG   HandlerThread:22804 [handler.py:handle_request():139] handle_request: defer
+2022-11-16 10:04:35,298 INFO    HandlerThread:22804 [handler.py:handle_request_defer():162] handle defer: 3
+2022-11-16 10:04:35,298 DEBUG   SenderThread:22804 [sender.py:send_request():317] send_request: defer
+2022-11-16 10:04:35,298 INFO    SenderThread:22804 [sender.py:send_request_defer():459] handle sender defer: 3
+2022-11-16 10:04:35,298 INFO    SenderThread:22804 [sender.py:transition_state():463] send defer: 4
+2022-11-16 10:04:35,298 DEBUG   HandlerThread:22804 [handler.py:handle_request():139] handle_request: defer
+2022-11-16 10:04:35,298 INFO    HandlerThread:22804 [handler.py:handle_request_defer():162] handle defer: 4
+2022-11-16 10:04:35,298 DEBUG   SenderThread:22804 [sender.py:send():303] send: summary
+2022-11-16 10:04:35,330 INFO    SenderThread:22804 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-16 10:04:35,330 DEBUG   SenderThread:22804 [sender.py:send_request():317] send_request: defer
+2022-11-16 10:04:35,330 INFO    SenderThread:22804 [sender.py:send_request_defer():459] handle sender defer: 4
+2022-11-16 10:04:35,330 INFO    SenderThread:22804 [sender.py:transition_state():463] send defer: 5
+2022-11-16 10:04:35,330 DEBUG   HandlerThread:22804 [handler.py:handle_request():139] handle_request: defer
+2022-11-16 10:04:35,330 INFO    HandlerThread:22804 [handler.py:handle_request_defer():162] handle defer: 5
+2022-11-16 10:04:35,330 DEBUG   SenderThread:22804 [sender.py:send_request():317] send_request: defer
+2022-11-16 10:04:35,330 INFO    SenderThread:22804 [sender.py:send_request_defer():459] handle sender defer: 5
+2022-11-16 10:04:35,330 INFO    SenderThread:22804 [sender.py:transition_state():463] send defer: 6
+2022-11-16 10:04:35,345 DEBUG   HandlerThread:22804 [handler.py:handle_request():139] handle_request: defer
+2022-11-16 10:04:35,345 INFO    HandlerThread:22804 [handler.py:handle_request_defer():162] handle defer: 6
+2022-11-16 10:04:35,345 DEBUG   SenderThread:22804 [sender.py:send_request():317] send_request: defer
+2022-11-16 10:04:35,345 INFO    SenderThread:22804 [sender.py:send_request_defer():459] handle sender defer: 6
+2022-11-16 10:04:36,175 DEBUG   HandlerThread:22804 [handler.py:handle_request():139] handle_request: poll_exit
+2022-11-16 10:04:37,577 INFO    SenderThread:22804 [sender.py:transition_state():463] send defer: 7
+2022-11-16 10:04:37,577 DEBUG   SenderThread:22804 [sender.py:send_request():317] send_request: poll_exit
+2022-11-16 10:04:37,577 DEBUG   HandlerThread:22804 [handler.py:handle_request():139] handle_request: defer
+2022-11-16 10:04:37,577 INFO    HandlerThread:22804 [handler.py:handle_request_defer():162] handle defer: 7
+2022-11-16 10:04:37,577 DEBUG   SenderThread:22804 [sender.py:send_request():317] send_request: defer
+2022-11-16 10:04:37,577 INFO    SenderThread:22804 [sender.py:send_request_defer():459] handle sender defer: 7
+2022-11-16 10:04:37,577 INFO    SenderThread:22804 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-11-16 10:04:38,316 INFO    SenderThread:22804 [dir_watcher.py:_on_file_modified():292] file/dir modified: D:\ATLOP-main\wandb\run-20221116_100312-2wn18qod\files\output.log
+2022-11-16 10:04:38,316 INFO    SenderThread:22804 [dir_watcher.py:finish():392] scan: D:\ATLOP-main\wandb\run-20221116_100312-2wn18qod\files
+2022-11-16 10:04:38,316 INFO    SenderThread:22804 [dir_watcher.py:finish():406] scan save: D:\ATLOP-main\wandb\run-20221116_100312-2wn18qod\files\config.yaml config.yaml
+2022-11-16 10:04:38,316 INFO    SenderThread:22804 [dir_watcher.py:finish():406] scan save: D:\ATLOP-main\wandb\run-20221116_100312-2wn18qod\files\wandb-summary.json wandb-summary.json
+2022-11-16 10:04:38,316 INFO    SenderThread:22804 [dir_watcher.py:finish():406] scan save: D:\ATLOP-main\wandb\run-20221116_100312-2wn18qod\files\requirements.txt requirements.txt
+2022-11-16 10:04:38,316 INFO    SenderThread:22804 [dir_watcher.py:finish():406] scan save: D:\ATLOP-main\wandb\run-20221116_100312-2wn18qod\files\conda-environment.yaml conda-environment.yaml
+2022-11-16 10:04:38,331 INFO    SenderThread:22804 [dir_watcher.py:finish():406] scan save: D:\ATLOP-main\wandb\run-20221116_100312-2wn18qod\files\wandb-metadata.json wandb-metadata.json
+2022-11-16 10:04:38,331 INFO    SenderThread:22804 [dir_watcher.py:finish():406] scan save: D:\ATLOP-main\wandb\run-20221116_100312-2wn18qod\files\output.log output.log
+2022-11-16 10:04:38,331 INFO    SenderThread:22804 [sender.py:transition_state():463] send defer: 8
+2022-11-16 10:04:38,331 DEBUG   HandlerThread:22804 [handler.py:handle_request():139] handle_request: defer
+2022-11-16 10:04:38,331 INFO    HandlerThread:22804 [handler.py:handle_request_defer():162] handle defer: 8
+2022-11-16 10:04:38,331 DEBUG   SenderThread:22804 [sender.py:send_request():317] send_request: defer
+2022-11-16 10:04:38,331 INFO    SenderThread:22804 [sender.py:send_request_defer():459] handle sender defer: 8
+2022-11-16 10:04:38,331 INFO    SenderThread:22804 [file_pusher.py:finish():168] shutting down file pusher
+2022-11-16 10:04:39,270 INFO    Thread-23 :22804 [upload_job.py:push():143] Uploaded file D:\ATLOP-main\wandb\run-20221116_100312-2wn18qod\files\requirements.txt
+2022-11-16 10:04:39,317 INFO    Thread-21 :22804 [upload_job.py:push():143] Uploaded file D:\ATLOP-main\wandb\run-20221116_100312-2wn18qod\files\config.yaml
+2022-11-16 10:04:39,348 INFO    Thread-24 :22804 [upload_job.py:push():143] Uploaded file D:\ATLOP-main\wandb\run-20221116_100312-2wn18qod\files\conda-environment.yaml
+2022-11-16 10:04:39,379 INFO    Thread-25 :22804 [upload_job.py:push():143] Uploaded file D:\ATLOP-main\wandb\run-20221116_100312-2wn18qod\files\output.log
+2022-11-16 10:04:41,215 DEBUG   HandlerThread:22804 [handler.py:handle_request():139] handle_request: keepalive
+2022-11-16 10:04:43,869 INFO    Thread-22 :22804 [upload_job.py:push():143] Uploaded file D:\ATLOP-main\wandb\run-20221116_100312-2wn18qod\files\wandb-summary.json
+2022-11-16 10:04:44,089 INFO    Thread-16 :22804 [sender.py:transition_state():463] send defer: 9
+2022-11-16 10:04:44,089 DEBUG   HandlerThread:22804 [handler.py:handle_request():139] handle_request: defer
+2022-11-16 10:04:44,089 INFO    HandlerThread:22804 [handler.py:handle_request_defer():162] handle defer: 9
+2022-11-16 10:04:44,089 DEBUG   SenderThread:22804 [sender.py:send_request():317] send_request: defer
+2022-11-16 10:04:44,089 INFO    SenderThread:22804 [sender.py:send_request_defer():459] handle sender defer: 9
+2022-11-16 10:04:44,089 INFO    SenderThread:22804 [file_pusher.py:join():173] waiting for file pusher
+2022-11-16 10:04:44,089 INFO    SenderThread:22804 [sender.py:transition_state():463] send defer: 10
+2022-11-16 10:04:44,089 DEBUG   HandlerThread:22804 [handler.py:handle_request():139] handle_request: defer
+2022-11-16 10:04:44,089 INFO    HandlerThread:22804 [handler.py:handle_request_defer():162] handle defer: 10
+2022-11-16 10:04:44,089 DEBUG   SenderThread:22804 [sender.py:send_request():317] send_request: defer
+2022-11-16 10:04:44,089 INFO    SenderThread:22804 [sender.py:send_request_defer():459] handle sender defer: 10
+2022-11-16 10:04:44,641 INFO    SenderThread:22804 [sender.py:transition_state():463] send defer: 11
+2022-11-16 10:04:44,641 DEBUG   HandlerThread:22804 [handler.py:handle_request():139] handle_request: defer
+2022-11-16 10:04:44,641 INFO    HandlerThread:22804 [handler.py:handle_request_defer():162] handle defer: 11
+2022-11-16 10:04:44,641 DEBUG   SenderThread:22804 [sender.py:send_request():317] send_request: defer
+2022-11-16 10:04:44,641 INFO    SenderThread:22804 [sender.py:send_request_defer():459] handle sender defer: 11
+2022-11-16 10:04:44,641 INFO    SenderThread:22804 [sender.py:transition_state():463] send defer: 12
+2022-11-16 10:04:44,641 DEBUG   SenderThread:22804 [sender.py:send():303] send: final
+2022-11-16 10:04:44,641 DEBUG   HandlerThread:22804 [handler.py:handle_request():139] handle_request: defer
+2022-11-16 10:04:44,641 DEBUG   SenderThread:22804 [sender.py:send():303] send: footer
+2022-11-16 10:04:44,641 INFO    HandlerThread:22804 [handler.py:handle_request_defer():162] handle defer: 12
+2022-11-16 10:04:44,641 DEBUG   SenderThread:22804 [sender.py:send_request():317] send_request: defer
+2022-11-16 10:04:44,641 INFO    SenderThread:22804 [sender.py:send_request_defer():459] handle sender defer: 12
+2022-11-16 10:04:44,641 DEBUG   HandlerThread:22804 [handler.py:handle_request():139] handle_request: poll_exit
+2022-11-16 10:04:44,641 DEBUG   SenderThread:22804 [sender.py:send_request():317] send_request: poll_exit
+2022-11-16 10:04:44,641 DEBUG   HandlerThread:22804 [handler.py:handle_request():139] handle_request: server_info
+2022-11-16 10:04:44,641 DEBUG   SenderThread:22804 [sender.py:send_request():317] send_request: server_info
+2022-11-16 10:04:44,641 DEBUG   HandlerThread:22804 [handler.py:handle_request():139] handle_request: get_summary
+2022-11-16 10:04:44,641 DEBUG   HandlerThread:22804 [handler.py:handle_request():139] handle_request: sampled_history
+2022-11-16 10:04:45,361 INFO    MainThread:22804 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2022-11-16 10:04:45,361 INFO    MainThread:22804 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2022-11-16 10:04:45,361 INFO    MainThread:22804 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2022-11-16 10:04:45,363 DEBUG   HandlerThread:22804 [handler.py:handle_request():139] handle_request: shutdown
+2022-11-16 10:04:45,363 INFO    HandlerThread:22804 [handler.py:finish():814] shutting down handler
+2022-11-16 10:04:45,646 INFO    WriterThread:22804 [datastore.py:close():279] close: D:\ATLOP-main\wandb\run-20221116_100312-2wn18qod\run-2wn18qod.wandb
+2022-11-16 10:04:46,369 INFO    SenderThread:22804 [sender.py:finish():1331] shutting down sender
+2022-11-16 10:04:46,369 INFO    SenderThread:22804 [file_pusher.py:finish():168] shutting down file pusher
+2022-11-16 10:04:46,369 INFO    SenderThread:22804 [file_pusher.py:join():173] waiting for file pusher
+2022-11-16 10:04:46,369 INFO    MainThread:22804 [internal.py:handle_exit():78] Internal process exited

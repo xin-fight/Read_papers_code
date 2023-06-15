@@ -1,0 +1,89 @@
+Downloading config.json: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 570/570 [00:00<00:00, 507kB/s]
+Downloading tokenizer_config.json: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████| 29.0/29.0 [00:00<00:00, 29.1kB/s]
+Downloading vocab.txt: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 208k/208k [00:01<00:00, 188kB/s]
+
+Downloading tokenizer.json: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 426k/426k [00:01<00:00, 328kB/s]
+
+
+
+
+
+
+
+
+
+Example:  99%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████  | 3008/3053 [00:19<00:00, 173.21it/s]
+# of documents 3053.
+# of positive examples 35615.
+Example: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3053/3053 [00:20<00:00, 152.50it/s]
+
+
+Example:  86%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████                   | 857/998 [00:05<00:00, 169.21it/s]
+# of documents 998.
+# of positive examples 11470.
+Example: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 998/998 [00:06<00:00, 150.47it/s]
+
+
+
+Example:  97%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊    | 969/1000 [00:06<00:00, 62.32it/s]
+# of documents 1000.
+# of positive examples 0.
+Example: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1000/1000 [00:06<00:00, 147.55it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Downloading pytorch_model.bin:  99%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████▉ | 412M/416M [01:10<00:00, 6.99MB/s]
+Total steps: 22890
+Downloading pytorch_model.bin: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 416M/416M [01:11<00:00, 6.12MB/s]
+Some weights of the model checkpoint at bert-base-cased were not used when initializing BertModel: ['cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.weight', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.decoder.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+C:\Users\pc\anaconda3\lib\site-packages\transformers\optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+C:\Users\pc\anaconda3\lib\site-packages\apex-0.1-py3.9.egg\apex\__init__.py:68: DeprecatedFeatureWarning: apex.amp is deprecated and will be removed by the end of February 2023. Use [PyTorch AMP](https://pytorch.org/docs/stable/amp.html)
+Traceback (most recent call last):
+  File "D:\ATLOP-main\train.py", line 235, in <module>
+    main()
+  File "D:\ATLOP-main\train.py", line 223, in main
+    train(args, model, train_features, dev_features, test_features)
+  File "D:\ATLOP-main\train.py", line 77, in train
+    finetune(train_features, optimizer, args.num_train_epochs, num_steps)
+  File "D:\ATLOP-main\train.py", line 43, in finetune
+    scaled_loss.backward()
+  File "C:\Users\pc\anaconda3\lib\site-packages\torch\_tensor.py", line 396, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "C:\Users\pc\anaconda3\lib\site-packages\torch\autograd\__init__.py", line 173, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+RuntimeError: CUDA out of memory. Tried to allocate 158.00 MiB (GPU 0; 6.00 GiB total capacity; 4.52 GiB already allocated; 0 bytes free; 5.23 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

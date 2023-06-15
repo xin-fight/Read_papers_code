@@ -1,0 +1,50 @@
+2022-11-16 10:13:48,119 INFO    StreamThr :21036 [internal.py:wandb_internal():88] W&B internal server running at pid: 21036, started at: 2022-11-16 10:13:48.103431
+2022-11-16 10:13:48,119 DEBUG   HandlerThread:21036 [handler.py:handle_request():139] handle_request: status
+2022-11-16 10:13:48,119 DEBUG   SenderThread:21036 [sender.py:send_request():317] send_request: status
+2022-11-16 10:13:48,134 INFO    WriterThread:21036 [datastore.py:open_for_write():75] open: D:\ATLOP-main\wandb\run-20221116_101347-37w78gxf\run-37w78gxf.wandb
+2022-11-16 10:13:48,134 DEBUG   SenderThread:21036 [sender.py:send():303] send: header
+2022-11-16 10:13:48,134 DEBUG   SenderThread:21036 [sender.py:send():303] send: run
+2022-11-16 10:13:48,980 DEBUG   HandlerThread:21036 [handler.py:handle_request():139] handle_request: check_version
+2022-11-16 10:13:48,980 INFO    SenderThread:21036 [dir_watcher.py:__init__():216] watching files in: D:\ATLOP-main\wandb\run-20221116_101347-37w78gxf\files
+2022-11-16 10:13:48,980 INFO    SenderThread:21036 [sender.py:_start_run_threads():928] run started: 37w78gxf with start time 1668564828.103431
+2022-11-16 10:13:48,980 DEBUG   SenderThread:21036 [sender.py:send():303] send: summary
+2022-11-16 10:13:49,011 INFO    SenderThread:21036 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-16 10:13:49,011 DEBUG   SenderThread:21036 [sender.py:send_request():317] send_request: check_version
+2022-11-16 10:13:49,459 DEBUG   HandlerThread:21036 [handler.py:handle_request():139] handle_request: run_start
+2022-11-16 10:13:49,475 DEBUG   HandlerThread:21036 [system_info.py:__init__():31] System info init
+2022-11-16 10:13:49,475 DEBUG   HandlerThread:21036 [system_info.py:__init__():46] System info init done
+2022-11-16 10:13:49,475 INFO    HandlerThread:21036 [system_monitor.py:start():150] Starting system monitor
+2022-11-16 10:13:49,475 INFO    SystemMonitor:21036 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2022-11-16 10:13:49,475 INFO    HandlerThread:21036 [system_monitor.py:probe():168] Collecting system info
+2022-11-16 10:13:49,475 INFO    SystemMonitor:21036 [interfaces.py:start():168] Started cpu
+2022-11-16 10:13:49,475 INFO    SystemMonitor:21036 [interfaces.py:start():168] Started disk
+2022-11-16 10:13:49,475 INFO    SystemMonitor:21036 [interfaces.py:start():168] Started gpu
+2022-11-16 10:13:49,475 INFO    SystemMonitor:21036 [interfaces.py:start():168] Started memory
+2022-11-16 10:13:49,491 INFO    SystemMonitor:21036 [interfaces.py:start():168] Started network
+2022-11-16 10:13:49,491 DEBUG   HandlerThread:21036 [system_info.py:probe():195] Probing system
+2022-11-16 10:13:49,491 DEBUG   HandlerThread:21036 [git.py:repo():40] git repository is invalid
+2022-11-16 10:13:49,491 DEBUG   HandlerThread:21036 [system_info.py:probe():241] Probing system done
+2022-11-16 10:13:49,491 DEBUG   HandlerThread:21036 [system_monitor.py:probe():177] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.9.12', 'heartbeatAt': '2022-11-16T02:13:49.491076', 'startedAt': '2022-11-16T02:13:47.900130', 'docker': None, 'cuda': None, 'args': ('--data_dir', './dataset/docred', '--transformer_type', 'bert', '--model_name_or_path', 'bert-base-cased', '--train_file', 'train_annotated.json', '--dev_file', 'dev.json', '--test_file', 'test.json', '--train_batch_size', '4', '--test_batch_size', '8', '--gradient_accumulation_steps', '1', '--num_labels', '4', '--learning_rate', '5e-5', '--max_grad_norm', '1.0', '--warmup_ratio', '0.06', '--num_train_epochs', '30.0', '--seed', '66', '--num_class', '97'), 'state': 'running', 'program': 'D:\\ATLOP-main\\train.py', 'codePath': 'train.py', 'host': 'xinl', 'username': '69014', 'executable': 'C:\\Users\\pc\\anaconda3\\python.exe', 'cpu_count': 12, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2500.0, 'min': 0.0, 'max': 2500.0}, 'cpu_freq_per_core': [{'current': 2500.0, 'min': 0.0, 'max': 2500.0}], 'disk': {'total': 57.65643310546875, 'used': 38.311920166015625}, 'gpu': 'NVIDIA GeForce RTX 3060 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3060 Laptop GPU', 'memory_total': 6442450944}], 'memory': {'total': 15.675884246826172}}
+2022-11-16 10:13:49,491 INFO    HandlerThread:21036 [system_monitor.py:probe():178] Finished collecting system info
+2022-11-16 10:13:49,491 INFO    HandlerThread:21036 [system_monitor.py:probe():181] Publishing system info
+2022-11-16 10:13:49,491 DEBUG   HandlerThread:21036 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2022-11-16 10:13:49,522 DEBUG   HandlerThread:21036 [system_info.py:_save_pip():67] Saving pip packages done
+2022-11-16 10:13:49,522 DEBUG   HandlerThread:21036 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2022-11-16 10:13:49,995 INFO    Thread-17 :21036 [dir_watcher.py:_on_file_created():275] file/dir created: D:\ATLOP-main\wandb\run-20221116_101347-37w78gxf\files\conda-environment.yaml
+2022-11-16 10:13:49,995 INFO    Thread-17 :21036 [dir_watcher.py:_on_file_created():275] file/dir created: D:\ATLOP-main\wandb\run-20221116_101347-37w78gxf\files\requirements.txt
+2022-11-16 10:13:49,995 INFO    Thread-17 :21036 [dir_watcher.py:_on_file_created():275] file/dir created: D:\ATLOP-main\wandb\run-20221116_101347-37w78gxf\files\wandb-summary.json
+2022-11-16 10:13:58,375 DEBUG   HandlerThread:21036 [system_info.py:_save_conda():86] Saving conda packages done
+2022-11-16 10:13:58,422 INFO    HandlerThread:21036 [system_monitor.py:probe():183] Finished publishing system info
+2022-11-16 10:13:58,569 DEBUG   HandlerThread:21036 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-16 10:13:58,569 DEBUG   SenderThread:21036 [sender.py:send_request():317] send_request: stop_status
+2022-11-16 10:13:58,949 DEBUG   SenderThread:21036 [sender.py:send():303] send: telemetry
+2022-11-16 10:13:58,949 DEBUG   SenderThread:21036 [sender.py:send():303] send: files
+2022-11-16 10:13:58,949 INFO    SenderThread:21036 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-11-16 10:13:59,063 INFO    Thread-17 :21036 [dir_watcher.py:_on_file_modified():292] file/dir modified: D:\ATLOP-main\wandb\run-20221116_101347-37w78gxf\files\conda-environment.yaml
+2022-11-16 10:13:59,063 INFO    Thread-17 :21036 [dir_watcher.py:_on_file_created():275] file/dir created: D:\ATLOP-main\wandb\run-20221116_101347-37w78gxf\files\wandb-metadata.json
+2022-11-16 10:14:00,174 INFO    Thread-20 :21036 [upload_job.py:push():143] Uploaded file C:\Users\69014\AppData\Local\Temp\tmpej7_bwqfwandb\2gp4bkv6-wandb-metadata.json
+2022-11-16 10:14:06,125 INFO    Thread-17 :21036 [dir_watcher.py:_on_file_created():275] file/dir created: D:\ATLOP-main\wandb\run-20221116_101347-37w78gxf\files\output.log
+2022-11-16 10:14:13,963 DEBUG   HandlerThread:21036 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-16 10:14:13,963 DEBUG   SenderThread:21036 [sender.py:send_request():317] send_request: stop_status
+2022-11-16 10:14:18,683 INFO    MainThread:21036 [internal.py:handle_exit():78] Internal process exited
+2022-11-16 10:14:18,683 WARNING MsgRouterThr:21036 [router.py:message_loop():74] EOFError seen in message_loop
