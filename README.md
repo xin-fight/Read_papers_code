@@ -4,3 +4,5 @@
 ## ATLOP
 
 Code for AAAI 2021 paper [Document-Level Relation Extraction with Adaptive Thresholding and Localized Context Pooling](https://arxiv.org/abs/2010.11304).
+
+Reference：https://github.com/wzhouad/ATLOP
