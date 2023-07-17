@@ -7,7 +7,7 @@ Code for AAAI 2021 paper [Document-Level Relation Extraction with Adaptive Thres
 
 Reference：https://github.com/wzhouad/ATLOP
 
-<img src="C:/Users/69014/Desktop/Github%E5%9B%BE%E5%BA%8A/local_image/image-20230717141726750.png" alt="image-20230717141726750" style="zoom:33%;" />
+<img src="https://cdn.jsdelivr.net/gh/xin-fight/note_image@main/img/202307171420386.png" alt="image-20230717141726750" style="zoom:33%;" />
 
 ## SGR
 
@@ -15,14 +15,14 @@ Source code for IJCAI-ECAI 2022 paper: [Document-level Relation Extraction via S
 
 Reference：https://github.com/Crysta1ovo/SGR
 
-<img src="C:/Users/69014/Desktop/Github%E5%9B%BE%E5%BA%8A/local_image/image-20230629000328795.png" alt="image-20230629000328795" style="zoom:50%;" />
+<img src="https://cdn.jsdelivr.net/gh/xin-fight/note_image@main/img/202307171420390.png" alt="image-20230629000328795" style="zoom:50%;" />
 
-<img src="C:/Users/69014/Desktop/Github%E5%9B%BE%E5%BA%8A/local_image/image-20230714204510575.png" alt="image-20230714204510575" style="zoom: 33%;" />
+<img src="https://cdn.jsdelivr.net/gh/xin-fight/note_image@main/img/202307171420391.png" alt="image-20230714204510575" style="zoom: 33%;" />
 
 test
 
-<img src="C:/Users/69014/Desktop/Github%E5%9B%BE%E5%BA%8A/local_image/image-20230714213416149-1689574518658-1.png" alt="image-20230714213416149" style="zoom:33%;" />
+<img src="https://cdn.jsdelivr.net/gh/xin-fight/note_image@main/img/202307171420392.png" alt="image-20230714213416149" style="zoom:33%;" />
 
-<img src="C:/Users/69014/Desktop/Github%E5%9B%BE%E5%BA%8A/local_image/image-20230717141437629-1689574518658-2.png" alt="image-20230717141437629" style="zoom:33%;" />
+<img src="https://cdn.jsdelivr.net/gh/xin-fight/note_image@main/img/202307171420393.png" alt="image-20230717141437629" style="zoom:33%;" />
 
-<img src="C:/Users/69014/Desktop/Github%E5%9B%BE%E5%BA%8A/local_image/image-20230717141456429-1689574518658-3.png" alt="image-20230717141456429" style="zoom: 33%;" />
+<img src="https://cdn.jsdelivr.net/gh/xin-fight/note_image@main/img/202307171420394.png" alt="image-20230717141456429" style="zoom: 33%;" />
